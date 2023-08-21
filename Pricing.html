@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homny-Food</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="lg">
+                <img class="lo" src="logo.png" alt="">
+            </div>
+
+            <div class="toggle">
+                <i class="fa-solid fa-bars ouvrir"></i>
+                <i class="fa-sharp fa-solid fa-xmark fermer"></i>
+            </div>
+
+            <ul class="onglets">
+                <a href="index.html">Home</a>
+                <a href="./How-it-works">How-it-works</a>    
+                <a href="./Meals.html">Meals</a>   
+                <a href="./Testimonial.html">Testimonial</a> 
+                <a href="./Pricing.html" class="active">Pricing</a> 
+            </ul>
+        </nav>
+    </header><br><br><br><br>
+
+    <section class="pricing" id="pricing">
+        <div class="premier_div" align="center">
+            <span class="pricing">PRICING</span>
+            <h2><b><span class="titre_eating">Eating well without breaking the bank</span></b></h2>
+
+        </div>
+        <div class="card_prix">
+            <div class="card_prix1">
+                <p class="starter">STARTER</p>
+                <p><span class="dolar">$</span><span class="prix">399</span><br><br>
+                    per month. That's just $13 per meal!
+
+                </p><br>
+                <p><i class="fa fa-check" aria-hidden="true"></i>1 meal per day <br> <br>
+                    <i class="fa fa-check" aria-hidden="true"></i>Order from 11am to 9pm <br> <br>
+                    <i class="fa fa-check" aria-hidden="true"></i>Delivery is free <br><br><br>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </p><br>
+                <center>
+                    <button type="button" class="bouton"><a href="#">Start eating well</a></button>
+                </center>
+            </div>
+            <div class="card_prix2">
+                <p class="complete">COMPLETE</p>
+                <p><span class="dolar">$</span><span class="prix">649</span><br><br><br>
+                    per month. That's just $13 per meal!
+                </p><br>
+                <p><i class="fa fa-check" aria-hidden="true"></i>2 meals per day <br><br>
+                    <i class="fa fa-check" aria-hidden="true"></i>Order 24/7 <br><br>
+                    <i class="fa fa-check" aria-hidden="true"></i>Delivery is free <br>
+                </p>
+                <i class="fa fa-check" aria-hidden="true"></i>Get access to latest recipes <br></p><br>
+                <center>
+                    <button type="button" class="bouton"><a href="#">Start eating well</a></button>
+                </center>
+            </div>
+        </div>
+        <p class="prices_include">
+            Prices include all applicable taxes. You can cancel at any time. Both plans include the following:
+        </p><br><br>
+        <br><br><br>
+
+        <section>
+            <div class="dernier_div">
+                <div class="block_">
+                    <i class="fas fa-infinity"></i>
+                    <p>
+                        <h4>Never cook again!</h4>
+                        Our subscriptions cover 365 <br><br>
+                        days per year, even <br><br>
+                        including major holidays.
+                    </p>
+
+                </div>
+                <div class="block_">
+                    <i class="fas fa-apple-alt"></i>
+                    <p>
+                        <h4>Local and organic</h4>
+                        Our cooks only use local,<br><br>
+                        fresh, and organic products <br><br>
+                        to prepare your meals.
+                    </p>
+
+                </div>
+                <div class="block_">
+                    <i class="fas fa-feather-alt fa-rotate-270"></i>
+                    <p>
+                        <h4>No waste</h4>
+                        <p>All our partners only use</p>
+                        <p>reusable containers to </p>
+                        package all your meals.
+                    </p>
+
+                </div>
+                <div class="block_">
+                    <i class="fas fa-pause"></i>
+                    <p>
+                        <h4>Pause anytime</h4>
+                        Going on vacation? Just <br><br>
+                        pause your subscription, <br><br>
+                    and we refund unused days.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <br><br><br><br><br>
+        <!-- </section><br><br><br><br> -->
+
+        <!--form section-->
+        <section>
+            <div class="form_">
+                <div class="form_block">
+                    <form>
+                        <h2><b>Get your first meal for free!</b></h2>
+                        <p>Healthy, tasty and hassle-free meals are waiting for you. Start eating well <br>
+                            today. You can cancel or pause anytime. And the first meal is on us!</p>
+                        <br><br>
+                        <div>
+                            <label for="fullName">Full Name</label><br>
+                            <input type="text" name="fullName" id="fullName" placeholder="John Smith" class="fullName">
+                        </div>
+                        <div class="mail">
+                            <label for="mail">Email address</label><br>
+
+                            <input type="email" name="mail" id="mail" placeholder="me@gmail.com" class="email">
+                        </div> <br>
+                        <div class="opinion">
+                            <label for="opinion">Where did you hear form us?</label><br> <br>
+                            <select>
+                                <option>Please choose one opinion</option>
+                                <option>Friends and family</option>
+                                <option value="YouTube Video">YouTube Video</option>
+                                <option value="Podcast">Podcast</option>
+                                <option value="Facebook add">Facebook add</option>
+                                <option value="Others">Others</option>
+                            </select>
+                            <button type="button" class="sign"> <a href="#">Sign up now</a></button>
+                        </div>
+                    </form>
+
+                    <div class="form_image">
+                        <img src="images/f.webp" alt="form image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section><br><br><br>
+
+    <footer>
+        <div class="logo-col">
+            <a href="#" class="footer-logo">
+                <img class="logo" alt="Fast-Food logo" src="logo.png" />
+            </a>
+            <ul class="social-links">
+                <li>
+                    <a class="footer-link" href="#"><ion-icon class="social-icon"
+                            name="logo-instagram"></ion-icon></a>
+                </li>
+                <li>
+                    <a class="footer-link" href="#"><ion-icon class="social-icon"
+                            name="logo-facebook"></ion-icon></a>
+                </li>
+                <li>
+                    <a class="footer-link" href="#"><ion-icon class="social-icon"
+                            name="logo-twitter"></ion-icon></a>
+                </li>
+            </ul><br><br>
+
+            <p class="copyright">
+                Copyright &copy; 2027 by Omnifood, <br>
+                Inc. All rights reserved.
+            </p>
+        </div>
+        <div class="address-col">
+            <p class="footer-heading">Contact us</p>
+            <address class="contacts">
+                <p class="address">
+                    623 Harrison St., 2nd Floor,<br>
+                    San Francisco, CA 94107
+                </p>
+                <p>
+                    <a class="footer-link" href="tel:415-201-6370">415-201-6370</a><br />
+                    <a class="footer-link" href="mailto:hello@fastfood.com">hello@fastfood.com</a>
+                </p>
+            </address>
+        </div>
+
+        <!--<p class="footer-heading">Account</p>-->
+        <ul class="footer-nav">
+            <p class="footer-heading">Account</p>
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+        </ul>
+
+        <!--<p class="footer-heading">Company</p>-->
+        <ul class="footer-nav">
+            <p class="footer-heading">Company</p>
+            <li><a class="footer-link" href="#">About Fast-Food</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+        </ul>
+
+        <!--<p class="footer-heading">Resources</p>-->
+        <ul class="footer-nav">
+            <p class="footer-heading">Resources</p>
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+        </ul>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
